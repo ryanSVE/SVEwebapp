@@ -16,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/ryanSVE/SVEwebapp/issues"
   },
-  "homepage": "https://github.com/ryanSVE/SVEwebapp#readme"
+  "homepage": "https://github.com/ryanSVE/SVEwebapp#readme",
+  "dependencies": {
+    "autodesk.forge.designautomation": "^3.0.3",
+    "body-parser": "^1.19.0",
+    "cookie-session": "^1.4.0",
+    "express": "^4.17.1",
+    "forge-apis": "^0.8.3",
+    "form-data": "^3.0.0",
+    "multer": "^1.4.2",
+    "socket.io": "^3.0.3"
+  }
 }
