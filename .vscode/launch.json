@@ -8,10 +8,12 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "${workspaceFolder}\\start.js"
+            "program": "${workspaceFolder}/start.js",
+            "env": {
+                "FORGE_CLIENT_ID": "r0nlzJot1h2sRJbTLSCApSoxQ3iWBJuP",
+                "FORGE_CLIENT_SECRET": "s2Ky5BNDA2XBXlMQ",
+                "FORGE_WEBHOOK_URL": "http://31a2fcb5a8f4.ngrok.io"
+            }
         }
     ]
 }
