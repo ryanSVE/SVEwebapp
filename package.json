@@ -4,6 +4,7 @@
   "description": "",
   "main": "start.js",
   "scripts": {
+    "start": "node start.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/ryanSVE/SVEwebapp/issues"
   },
-  "homepage": "https://github.com/ryanSVE/SVEwebapp#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "homepage": "https://github.com/ryanSVE/SVEwebapp#readme"
 }
